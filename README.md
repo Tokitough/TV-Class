@@ -12,6 +12,12 @@ The TV has channels ranging from 1 to 120 to set to and a volume range of 1 to 7
 2. Save it with the .py extension
 3. From the same directorty, create another .py file with the code from TV_Test. 
 4. Keep in mind that the file name should be the same with this. If not, the program will malfunction. If you wish to change the file name of the TV_Class, make sure to change the code in Test_TV to properly import the class.
+
+![image](https://github.com/Tokitough/TV-Class/assets/130126464/94ae63f6-8350-4c18-b9fe-4d675d2a0871)
+
 5. You can change/set the volume and channel on the Test_TV
+
+![image](https://github.com/Tokitough/TV-Class/assets/130126464/78b49dc4-60c8-49c0-8db6-901ac7fab76d)
+
 6. Save the file
 7. Run the program
