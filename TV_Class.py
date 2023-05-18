@@ -38,7 +38,7 @@ class TV:
             self.volume = volume 
         else:
             print("\e[31mThat Volume does not exist!\e[31m")
-            
+
     # Method for chagning the channel
     def channel_up (self) -> None:
         # Conditional statements for the amount of channels available
@@ -68,4 +68,5 @@ class TV:
             self.volume = self.volume - 1
         else:
             print("\e[31mThat Volume does not exist!\e[31m")
-            
+
+    
