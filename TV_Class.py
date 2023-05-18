@@ -18,7 +18,16 @@ class TV:
         self.off = False
     
     # A method for getting the channel
+    def get_channel (self) -> int:
+        return self.channel
+    
+    def set_channel (self, channel) -> None:
         # Conditional statements for the amount of channels available
+        if channel <= 120 and channel >= 1:
+            self.channel = channel 
+        else:
+            print("\e[31mThat Channel does not exist!\e[31m")
+            
 
     # Method for getting the volume
         # Conditional statements for the range of volume
