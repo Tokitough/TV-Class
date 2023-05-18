@@ -1,7 +1,15 @@
 # Create a TV class with the stated attributes
-
+class TV:
+    channel: int
+    volume: int
+    on: bool
+    
     # Create methods for the default constructor
-
+    def __init__ (self):
+        self.channel: 1
+        self.volume: 1
+        self.on: False
+        
     # Method for turning the tv on or off
 
     # A method for getting the channel
