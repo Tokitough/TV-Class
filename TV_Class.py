@@ -45,14 +45,14 @@ class TV:
         if self.channel + 1 <= 120 and self.channel + 1 >= 1:
             self.channel = self.channel + 1
         else:
-            print("\u001b[31mThat Channel does not exist!\u001b[31m")
+            print("\e[31mThat Channel does not exist!\e[31m")
             
     def channel_down (self) -> None:
         # Conditional statements for the amount of channels available
         if self.channel - 1 >= 1 and self.channel - 1 >= 1:
             self.channel = self.channel - 1
         else:
-            print("\u001b[31mThat Channel does not exist!\u001b[31m")
+            print("\e[31mThat Channel does not exist!\e[31m")
             
     # Method for chagning the volume
     def volume_up (self) -> None:
@@ -60,13 +60,13 @@ class TV:
         if self.volume + 1 <= 7 and self.volume + 1 >= 1:
             self.volume = self.volume + 1
         else:
-            print("\u001b[31mThat Volume does not exist!\u001b[31m")
+            print("\e[31mThat Volume does not exist!\e[31m")
             
     def volume_down (self) -> None:
         # Conditional statements for the range of volume
         if self.volume - 1 <= 7 and self.volume - 1 >= 1:
             self.volume = self.volume - 1
         else:
-            print("\u001b[31mThat Volume does not exist!\u001b[31m")
+            print("\e[31mThat Volume does not exist!\e[31m")
 
     
